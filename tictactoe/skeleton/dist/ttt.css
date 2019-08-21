@@ -1,0 +1,30 @@
+ul { 
+  display: flex;
+  width: 200px;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+ul > li{
+  width: 60px;
+  height: 50px;
+  background-color: gray;
+  border: 1px solid black;
+}
+
+.unclicked:hover {
+  background-color: yellow;
+}
+
+.clicked {
+  background-color: cornflowerblue;
+
+}
+
+li {
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  align-content: center;
+  font-size: 40px;
+}

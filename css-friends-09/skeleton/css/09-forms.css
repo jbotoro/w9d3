@@ -1,0 +1,26 @@
+/* PHASE 9: Forms */
+
+.thumb {
+  float: left;
+
+}
+
+.input {
+  height: 100px;
+  background-color: lightblue;
+  
+}
+
+.input > label {
+  display: block;
+}
+
+.input > input {
+  display: block;
+  background: white;
+  border: 1px solid black;
+}
+
+.submit {
+  height: 50px;
+}
